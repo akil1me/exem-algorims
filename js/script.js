@@ -13,3 +13,19 @@ function userName(name) {
 
 userName("Akobir Parmonqulov");
 
+// 2-vazifa
+
+let numbersArr = [10, 22, 25, 49, 80, 81, 100];
+let numbersResult = [];
+
+function numbers(num) {
+  for (let i = 0; i < numbersArr.length; i++) {
+    if ((Math.sqrt(numbersArr[i]) % 1) == 0) {
+      numbersResult.push(Math.sqrt(numbersArr[i]))
+    } else {
+      numbersResult.push(Math.pow(numbersArr[i], 2))
+    }
+  }
+}
+numbers();
+console.log(numbersResult)

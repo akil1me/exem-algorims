@@ -28,4 +28,18 @@ function numbers(num) {
   }
 }
 numbers();
-console.log(numbersResult)
+console.log(numbersResult);
+
+// 3-vazifa
+
+function str(text) {
+  let arr = text;
+  let arrResult = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    arrResult.push(arr[i] + arr[i])
+  }
+  return arrResult.join('')
+}
+
+console.log(str("Akobir"));
